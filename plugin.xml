@@ -88,7 +88,11 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 </feature>
         </config-file>
       
-        <config-file file="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+        <config-file file="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+            <string>This Application need your location access to find branch nearby</string>
+        </config-file>
+        
+      <config-file file="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
             <string>This Application need your location access to find branch nearby</string>
         </config-file>
       
