@@ -92,10 +92,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             <string>This Application need your location access to find branch nearby</string>
         </config-file>
       
-        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>This Application need your location access to find branch nearby</string>
-        </config-file>
-      
         <header-file src="src/ios/CDVLocation.h" />
         <source-file src="src/ios/CDVLocation.m" />
         <framework src="CoreLocation.framework" />
